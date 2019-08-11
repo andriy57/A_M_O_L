@@ -1,0 +1,122 @@
+ @font-face {
+  font-family: "Times New Roman";
+  src: url(times_new_roman.ttf); /* Путь к файлу со шрифтом */
+}
+
+* {
+    font-family: 'Times New Roman';
+}
+
+ .nav {
+  background: #ffffff;
+  -webkit-columns: 100px 4;
+  -moz-columns: 100px 4;
+  columns: 100px 4;
+  -webkit-column-gap: 0;
+  -moz-column-gap: 0;
+  column-gap: 0;
+  -webkit-column-rule: 1px solid #ffffff;
+  -moz-column-rule: 1px solid #ff0000;
+  column-rule: 1px solid white;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-family: 'Georgia', serif;
+  font-size: 22px;
+  display: block;
+  padding: 1em;
+  text-align: center;
+  border-bottom: 1px solid white;
+}
+.nav a:hover {
+ background: #ffd000;
+}
+
+body {
+  font-family: 'Georgia', serif;
+  font-weight: 400;
+  line-height: 1.45;
+  color: #852;
+  background: #f7f7f7;
+}
+* {
+    margin: 0;
+}
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: sans-serif;
+    font-size: 0.875em;
+    line-height: 1.6em;
+}
+
+header {
+    background-image: url("../img/lviv-background.jpg");
+    background-position: center center;
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 5%;
+}
+
+header h1 {
+    font-size: 10rem;
+    color: rgb(0, 0, 0);
+}
+
+article {
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    list-style-position: inside;
+    margin: 0;
+    padding: 10px;
+}
+
+aside img {
+    display: block;
+    width: 100%;
+}
+
+footer p {
+    text-align: center;
+}
+#log {
+	width: 590px;
+	height: 290px;
+	border: 1px solid rgb(192, 192, 192);
+	padding: 5px;
+	margin-bottom: 5px;
+	font: 11pt 'Palatino Linotype';
+	overflow: auto;
+}
+#input {
+	width: 550px;
+}
+#send {
+	width: 50px;
+}
+
+.in {
+	color: rgb(0, 0, 0);
+}
+.out {
+	color: rgb(0, 0, 0);
+}
+.time {
+	color: rgb(144, 144, 144);
+	font: 10pt 'Courier New';
+}
+.system {
+	color: rgb(165, 42, 42);
+}
+.user {
+	color: rgb(25, 25, 112);
+}
