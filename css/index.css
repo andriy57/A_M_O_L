@@ -120,3 +120,12 @@ footer p {
 .user {
 	color: rgb(25, 25, 112);
 }
+
+#header-ikon {
+    position: absolute;
+    max-height: 300px;
+}
+
+header {
+    z-index: 1;
+}
