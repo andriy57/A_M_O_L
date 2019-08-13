@@ -138,7 +138,7 @@ header {
 }
 
 #people{
-    max-width: 1200px;
+    max-width: 1100px;
 }
 h2 {
     text-align: center;
@@ -176,4 +176,11 @@ footer img {
 
 font-size: 4vw;
 display: 1fr 1fr;
+}
+body {
+    background-image:
+    linear-gradient(
+      to right,
+      rgb(242, 213, 65), rgb(242, 176, 53),rgb(242, 148, 65), rgb(217, 110, 48), rgb(166, 64, 41)
+    )
 }
