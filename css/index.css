@@ -22,8 +22,9 @@ body {
     margin: 0;
 }
 
-.navbar-brand
-{
+.navbar{
+    text-weight: italic;
+}
   font-family: 'Lato', sans-serif;
   color:grey;
   font-size: 100px;
