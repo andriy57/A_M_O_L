@@ -1,4 +1,4 @@
-document.querySelector('#callMe').addEventListener('submit', (e) => {
+document.querySelector('#callMe').addEventListener('submit', e => {
     e.preventDefault();
     fetch('callMe', {
         method: 'POST',
@@ -9,5 +9,5 @@ document.querySelector('#callMe').addEventListener('submit', (e) => {
             name: document.querySelector('#userName').value,
             number: document.querySelector('#userNumber').value
         })
-    })
-})
+    });
+});
