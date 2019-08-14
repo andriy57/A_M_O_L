@@ -12,6 +12,7 @@ a {
 /* границя між кодом для всіх стилів і стилями конкретнгих частинок сторінки.*/
 
 body {
+    margin:auto;
     max-width: 980px;
     font-family: 'Libre Caslon Display', serif;
     margin: 0;
@@ -88,18 +89,34 @@ iframe {
 }
 footer {
     padding: 10px;
+    display: grid;
+    grid-gap: 10px;
+  padding: 10px;
 }
+
 @media only screen
 and (min-width: 600px) {
   header h1 {
         font-size: 300px;
     }
-}
- .box {
-  display: inline-block;
-  width: 350px;
-  vertical-align: top;
-  margin-bottom: 20px;
-  margin-right: 20px;
-  padding: 10px;
+    .form-control {
+        display:inline-block;
+        width: 140px;
+    }
+    .label {
+        display:inline-block;
+    }
+
+    #call-me {
+        display: block;
+
+    }
+
+    #callMe {
+        text-align: center;
+    }
+
+    footer {
+        grid-template-columns: 1fr 1fr;
+    }
 }
