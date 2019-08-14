@@ -1,12 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Caslon+Display&display=swap');
+
+
+
 img {
     max-width: 100%;
 }
-
 * {
     margin: 0;
     padding: 0;
 }
-
 a {
     text-decoration: none;
 }
@@ -17,18 +19,43 @@ a {
 
 
 /* границя між кодом для всіх стилів і стилями конкретнгих частинок сторінки.*/
+
 body {
     max-width: 980px;
+    font-family: 'Libre Caslon Display', serif;
     margin: 0;
 }
-
-.navbar{
-    text-weight: italic;
+h1, h2, p, label, input {
+    font-style: italic;
+    font-family: 'Libre Caslon Display', serif;
+    color:#000;
+    font-size: 25px;
+    margin: 0px;
 }
-  font-family: 'Lato', sans-serif;
-  color:grey;
-  font-size: 100px;
-  margin: 0px;
+
+h1 {
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  padding: 80px 50px;
+  text-align: center;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+}
+
+h2 {
+    color: #131313;
+    letter-spacing: .15em;
+    text-shadow:
+      1px -1px 0 #767676,
+      -1px 2px 3px #737272,
+      -2px 4px 3px #767474,
+      -3px 6px 3px #787777;
+  }
+.navbar {
+
+    font-family: 'Libre Caslon Display', serif;
+    color:grey;
+    font-size: 25px;
+    margin: 0px;
 }
 header {
     display: flex;
@@ -36,7 +63,7 @@ header {
     justify-content: center;
 }
 header h1 {
-    font-size: 10rem;
+    font-size: 50px;
     color: white;
 }
 
@@ -89,7 +116,20 @@ iframe {
 
 
 
-
 footer {
     padding: 10px;
+}
+@media only screen
+and (min-width: 600px) {
+  header h1 {
+        font-size: 300px;
+    }
+}
+ .box {
+  display: inline-block;
+  width: 350px;
+  vertical-align: top;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  padding: 10px;
 }

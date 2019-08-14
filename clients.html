@@ -1,31 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-     <title>Simple Responsive Flexbox Layout Example</title>
-    <link href="css/index.css" rel="stylesheet">
-    <link href="css/index-layout.css" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <nav>
-            <ul class="nav">
-              <li><a href="index.html">Back</a></li>
-            </ul>
-        </nav>
-    <header>
-        <h1>Lviv</h1>
-
-    </header>
-    <main>
-        <article>
-          <h2 id="architectural_masterpieces_of_lviv">Contacts:</h2>
-            <p>If you have any questions or need more information, you can always contact the Universal Bank contact center and our experts will be happy to assist you.
-             Universal Bank Call Center: 0 800 300 200 (24 hours a day, free of charge within Ukraine)
-             Email address for feedback: contact@universalbank.com.ua
-              Head Office Address: Avtozavodskaya 54/19, 04114 Kiev, Ukraine</p>
-        </article>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+        <link href="css/index.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/bootstrap-simplex.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Back<span class="sr-only"></span></a>
+                  </li>
+                </ul>
+            </div>
+            </nav>
+            <div id="header-ikon">
+                <h1>Lviv</h1>
+                <img src="img/lviv.jpg" alt="city">
+            </div>
+             <section>
+                <h2>Vladimir Paly, architect, architectural office “Zelemin” </h2>
+                <p>I am impressed by the house on Ivan Franko Street, 26 - it is one of the first functional buildings in Lviv. It applied a number of innovative solutions of that style. For example, one of the first fire hydrants in the city was installed inside the house.</p>
+                <img src="img/lviv8.jpg" alt="black and brown bench across white church">
+                <blockquote>
+                    <p>The long roof hangs visually enlarge the small building and form an additional intermediate space, which is formally on the street but is in fact a continuation of the temple. In Ukrainian villages, traditionally only a part of the parishioners listened to worship in the temple, while all others stood under the roof and listened to the priest through the walls, unable to see what was going on inside. It is an impressive element of culture.</p>
+                </blockquote>
+                 <p>The house was built in the early 30's of the twentieth century, among the existing ones. Therefore, inside the walls do not have straight angles and obey the vectors of older buildings, but this did not affect its external simplicity and rhythm inherent in functionalism.</p>
+                 <p>I learned from a local resident that there was a concierge room on the ground floor and the owner's apartments on the last floor. They occupied the entire floor, had an open terrace, and were combined with the servants' quarters, which had a separate entrance from the stairwell. In Soviet times there was an attempt to redevelop the house, but now the apartments have been redeemed and restored a convenient initial gradation - two apartments on the floor.</p>
+                 <img src="img/lviv7.jpg" alt="white painted building pathway">
+                 <p>The uniqueness of the house on Frank Street lies in its urban layout. <br> It conceals the main idea of ​​architect Vitold Minkiewicz.<br> It is revealed by looking at the facade, the accent of which is the bay window [part of the room protruding from the plane of the facade. - Buro 24/7]. The nuanced bay window, located exactly on the axis of Green Street, was to complete its perspective. This has not happened, however, because the older two-story building still divides Minkiewicz's and Green's house.</p>
+            </section>
+                    <footer>
+            <section>
+                <h2>Contact Me</h2>
+                <form id="callMe">
+                    <label>
+                        Name:
+                        <input class="form-control" type="text" placeholder="Your Name" required id="userName">
+                    </label>
+                    <label>
+                        Phone number:
+                        <input class="form-control" type="text" placeholder="Your phone number" required id="userNumber">
+                    </label>
+                    <br>
+                    <input class="btn btn-primary" type="submit" value="Call me">
+                </form>
+            </section>
+        </footer>
     <script src="js/index.js"></script>
 </body>
 </html>
