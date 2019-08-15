@@ -182,4 +182,3 @@ window.onload = () => {
     count++;
   }
 };
-Splitting();
