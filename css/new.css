@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik+Mono+One|Roboto+Mono:400,700&display=swap');
+
+:root {
+  --color-primary: #18181A;
+  --color-secondary: #75757C;
+  --color-dark: #364C62;
+  --color-light: #F5F5F5;
+  --font-family-primary: 'Roboto Mono', monospace;
+  --font-family-secondary: 'Rubik Mono One', sans-serif;
+
+}
+
+
+html, body {
+  height: 100%;
+}
+body {
+  color: var(color-black);
+  font-family: var(--font-family-primary);
+}
+
+h1 {
+  font-size: calc(1.5rem + 4vmin);
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+a {
+    text-decoration: none;
+}
+
+p {
+  line-height: 1.4;
+}
+
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 45rem;
+  padding: 1rem;
+
+  > * + * {
+    margin-top: 1.5rem;
+  }
+}
