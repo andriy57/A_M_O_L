@@ -45,7 +45,8 @@ h2 {
 
     font-family: 'Libre Caslon Display', serif;
     color:black;
-    font-size: 25px;
+    font-size: 35px;
+    font-weight: 600;
     margin: 0px;
 }
 header {
@@ -53,6 +54,7 @@ header {
     align-items: center;
     justify-content: center;
 }
+
 header h1 {
     font-size: 50px;
     color: white;
@@ -68,6 +70,8 @@ header h1 {
     transform: translate(-50%, -50%);
     color: #FFF;
 }
+
+
 p {
     margin: 25px;
 
@@ -101,7 +105,7 @@ footer {
 @media only screen
 and (min-width: 600px) {
   header h1 {
-        font-size: 300px;
+        font-size: 200px;
     }
     .form-control {
         display:inline-block;
@@ -274,3 +278,7 @@ and (min-width: 600px) {
   filter: alpha(opacity=100);
 }
 
+#callMe {
+    text-align: center;
+
+}
